@@ -1,0 +1,4 @@
+getgenv().Games = {
+    [3623096087] = "", -- Muscle Legends
+    [3101667897] = "", -- Legend of Speed
+}
