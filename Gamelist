@@ -1,4 +1,4 @@
 getgenv().Games = {
-    [3623096087] = "loadstring(game:HttpGet("https://raw.githubusercontent.com/ben1x1x1x1x/Loader/refs/heads/main/Muscle%20Legends"))()", -- Muscle Legends
-    [3101667897] = "loadstring(game:HttpGet("https://raw.githubusercontent.com/ben1x1x1x1x/Loader/refs/heads/main/Legends%20Of%20Speed"))()", -- Legend of Speed
+    [3623096087] = "https://raw.githubusercontent.com/ben1x1x1x1x/Loader/refs/heads/main/Muscle%20Legends", -- Muscle Legends
+    [3101667897] = "https://raw.githubusercontent.com/ben1x1x1x1x/Loader/refs/heads/main/Legends%20Of%20Speed" -- Legends of Speed
 }
