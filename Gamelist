@@ -1,4 +1,27 @@
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+
+repeat wait() until game:FindFirstChild("CoreGui")
+
 getgenv().Games = {
-    [3623096087] = "https://raw.githubusercontent.com/ben1x1x1x1x/Loader/refs/heads/main/Muscle%20Legends", -- Muscle Legends
-    [3101667897] = "https://raw.githubusercontent.com/ben1x1x1x1x/Loader/refs/heads/main/Legends%20Of%20Speed" -- Legends of Speed
+    [3623096087] = "https://raw.githubusercontent.com/ben1x1x1x1x/Loader/refs/heads/main/Muscle%20Legends",
+    [3101667897] = "https://raw.githubusercontent.com/ben1x1x1x1x/Loader/refs/heads/main/Legends%20Of%20Speed"
 }
+
+function CheckingGame1()
+    getgenv().Get = setmetatable({}, {
+        __index = function(_, service)
+            return game:GetService(service)
+        end
+    })
+
+    local url = Games[game.PlaceId]
+    if url then
+        pcall(function()
+            loadstring(game:HttpGet(url))()
+        end)
+    end
+end
+
+CheckingGame1()
