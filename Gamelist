@@ -1,6 +1,6 @@
 getgenv().Games = {
     [3623096087] = "https://raw.githubusercontent.com/ben1x1x1x1x/Loader/refs/heads/main/Muscle%20Legends", -- Muscle Legends
     [3101667897] = "https://raw.githubusercontent.com/ben1x1x1x1x/Loader/refs/heads/main/Legends%20Of%20Speed", -- Legend of Speed
-    [6447798030] = "https://raw.githubusercontent.com/ben1x1x1x1x/Loader/refs/heads/main/FunkyFriday" -- Funky Friday
-
+    [6447798030] = "https://raw.githubusercontent.com/ben1x1x1x1x/Loader/refs/heads/main/FunkyFriday", -- Funky Friday
+    [189707] = "https://raw.githubusercontent.com/ben1x1x1x1x/Loader/refs/heads/main/Natural%20Disaster" -- Natural Disaster
 }
